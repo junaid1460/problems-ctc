@@ -14,14 +14,17 @@ let's take one example
   1111
 
 ```
- 1111 is 15, basically it 10 + 5 = 15.
-Now I think you got me.
+ 1111 is 15, basically it is 10 + 5 = 15.
+ 
+Now stop here and think what logic you can think of with thus much information.
 
+
+Here's my algorithm.
 step 1: convert binary string into decimal representation.(i.e `0101` to to `10` ... )
 
-step 2: add resultant decimal value. ( ie `10` + `5` = `15` )
+step 2: add resultant decimal values of inputs. ( ie `10` + `5` = `15` )
 
-step 3: now convert decimal value to binary string.( ie `15` => `1111`)
+step 3: now convert result of step 2 to binary string.( ie `15` => `1111`)
 
 
 solution : 
